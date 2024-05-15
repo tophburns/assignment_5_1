@@ -22,7 +22,17 @@ In exploring the quality of the data, I observed the following:
 
 # Findings
 
-Overall, 56.84% of drivers accepted the coupon that was offered. The coupons were for 5 different types of businesses: Bar, Coffee House, Carry Away, Restaurants costing < $20 and Restaurants costing between $20-50. The majority of coupons offered were for coffee houses, which had 50% acceptance rate. Higher cost destinations had lower acceptance rates, with bar coupons only accepted 41% of the time and more expensive restaurants 44% acceptance. However, lower cost restaurants and take away showed high coupon acceptance, with take away coupons being accepted ~74% of the time and <20$ restaurants being accepted ~71%.
+## Overall Findings
+
+Overall, 56.84% of drivers accepted the coupon that was offered. The coupons were for 5 different types of businesses: Bar, Coffee House, Carry Away, Restaurants costing less than 20 dollars and Restaurants costing between 20-50 dollars. The majority of coupons offered were for coffee houses, which had 50% acceptance rate. Higher cost destinations had lower acceptance rates, with bar coupons only accepted 41% of the time and more expensive restaurants 44% acceptance. However, lower cost restaurants and take away showed high coupon acceptance, with take away coupons being accepted ~74% of the time and <20$ restaurants being accepted ~71%.
+
+In general, drivers are more likely to accept coupons for higher cost or boutique destinations (eg. bars, coffee houses, restaurants > $20) if they already frequent these types of establishments more than once per month. This is true independent of other factors like income or age. However, when it comes to inexpensive restaurants or take aways, all drivers showed positive acceptance rates of coupons to these establishments.
+
+There are a few occupations that accepted some coupons at elevated rates. For example, healthcare workers, transporation workers and students accepted coffee coupons at high rates ranging from 61-74%. Similary, bar coupons were accepted at higher rates for drivers working in Life, Physical or Social Sciences, Architecture & Engineering and Production roles (62-67% acceptance rates). Further exporation could be done to identify particular occupations to target these coupons to in an effort to increase overall adoption.
+
+Weather also plays a role in coupon acceptance with sunny days showing a higher acceptance rate at 59% compared to rainy days at 46%.
+
+Below are a more details on how the acceptance rate was impact by driver monthly visits beyond the summary given above. If I were to continue exploring this data I would look to see if other demographics impact acceptance rate like education level, marital or family status. Or some of the contextual data, for instance is a driver more likely to accept a coupon if they're on their way home versus on their way to work? Would you accept a bar coupon on your way home but not on your way to work? Or vice versa with coffee coupons?
 
 ## Bar Coupons
 
@@ -34,7 +44,9 @@ Similar to bars, the determining factor to whether drivers accept a coupon to a 
 
 ## Expensive vs Cheaper Restaurants
 
-Expensive restaurants exhibited a same trend as bar and coffee house coupons with the accept rate dependent on existing visit habbits. However, that trend **does not hold true** for cheaper restaurants. Coupons for cheaper restaurants (less than $20 restaurants and take aways) demonstrated different trends then the coupons to more expensive (or botique) destinations such as bars or restaurants over $20. These cheaper options saw positive acceptance rates across the board, even for drivers that didn't frequent these restaurants, with acceptance rates ranging from 55% - 89%. For example, drivers who went to less than $20 restaurants fewer than once per month still accepted coupons to these restaurants 67% of the time. We see similar trends, but slightly higher with the carry away coupons, with acceptance rates ranging from 67% - 86%.
+Expensive restaurants exhibited a similar trend as bar and coffee house coupons with the accept rate dependent on existing visit habbits. However, that trend **does not hold true** for cheaper restaurants. Coupons for cheaper restaurants (less than 20 dollar restaurants and take aways) demonstrated different trends then the coupons to more expensive (or botique) destinations. These cheaper options saw positive acceptance rates across the board, even for drivers that didn't frequent these restaurants, with acceptance rates ranging from 55% - 89%. For example, drivers who went to under $20 restaurants fewer than once per month still accepted coupons to these restaurants 67% of the time. We see similar trends, but slightly higher with the carry away coupons, with acceptance rates ranging from 67% - 86%.
+
+## Weather
 
 There is a small improvement in coupon acceptance rate based on weather. Sunny days had higher acceptance rate at 59% compared to rainy days at 46%. Similary, temperature showed a small improvement in acceptance rate as the temperature increased, 80 degree day had acceptance rate of 60% compared to 53% for 30 degree days.
 
