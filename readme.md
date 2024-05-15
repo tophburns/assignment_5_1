@@ -32,7 +32,15 @@ There are a few occupations that accepted some coupons at elevated rates. For ex
 
 Weather also plays a role in coupon acceptance with sunny days showing a higher acceptance rate at 59% compared to rainy days at 46%.
 
-Below are a more details on how the acceptance rate was impact by driver monthly visits beyond the summary given above. If I were to continue exploring this data I would look to see if other demographics impact acceptance rate like education level, marital or family status. Or some of the contextual data, for instance is a driver more likely to accept a coupon if they're on their way home versus on their way to work? Would you accept a bar coupon on your way home but not on your way to work? Or vice versa with coffee coupons?
+Below are a more summary details on how the acceptance rate was impact by driver monthly visits beyond the summary given above. More details on my research and findings, including multiple plots of the data, can be found [in the associated Jupyter notebook](./prompt.ipynb)
+
+## Recommendations
+
+My initial recommendation would be to focus on coupons to lower cost restaurants and take aways, particularly on warm sunny days. For more expensive destinations, targeting those coupons at particular audiences to increase adoption. For instance, healthcare workers and students accept coffee coupons at high rates, targeting these coupons for drivers in the proximity of universities and hospitals should show high levels of acceptance.
+
+## Next Steps
+
+If I were to continue exploring this data I would look to see if other demographics impact acceptance rate like education level, marital or family status. Or some of the contextual data, for instance is a driver more likely to accept a coupon if they're on their way home versus on their way to work? Would you accept a bar coupon on your way home but not on your way to work? Or vice versa with coffee coupons?
 
 ## Bar Coupons
 
